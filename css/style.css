@@ -188,3 +188,65 @@ nav.main-menu {
   font-weight: bold;
   font-size: 14px;
 }
+
+.show-more-btn a{
+  text-align: right;
+  display: block;
+  margin-top: 50px;
+  color: #E02C6DDE;
+  font-weight: bold;
+  font-size: 16px;
+}
+.show-more-btn a i {
+  margin-left: 5px;
+}
+
+
+
+
+/* -------------------
+    Feature Area CSS
+  -------------------- */
+.feature {
+  margin-bottom: 100px;
+}
+
+
+.feature-in {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-column-gap: 30px;
+}
+.freature-info {
+  margin: auto 0;
+}
+.freature-info h2 {
+  font-weight: bold;
+  font-size: 38px;
+  color: #0A0826;
+}
+.freature-info p{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6C6C6C;
+  margin: 16px 0;
+}
+.freature-info a {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: #E02C6D;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  transition: box-shadow .5s ease, background-color .5s ease, color .5s ease;
+
+}
+.freature-info a:hover {
+  box-shadow: 0px 13px 19px rgb(5 5 5 / 30%);
+  background-color: #FFFFFF;
+  color: #E02C6D;
+}
+.freature-info a i {
+  margin-left: 10px;
+}
