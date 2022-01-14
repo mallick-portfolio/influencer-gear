@@ -116,3 +116,20 @@ nav.main-menu {
   border: 4px solid #F7F0FF;
   border-radius: 50%;
 }
+
+
+/* -------------------
+    Partner Area CSS
+  -------------------- */
+.partner-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #E7ECF1;
+  border-bottom: 1px solid #E7ECF1;
+  padding: 40px 0;
+  margin-bottom: 100px;
+}
+.partner-logo img {
+  margin: 0 25px;
+}
