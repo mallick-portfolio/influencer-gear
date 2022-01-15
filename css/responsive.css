@@ -76,6 +76,9 @@
 
 
   /* Footer Area */
+  .footer{
+    width: 576px;
+  }
   .social-link ul li{
     margin: 0 7px;
   }
