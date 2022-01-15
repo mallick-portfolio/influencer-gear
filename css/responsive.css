@@ -1,4 +1,4 @@
-@media only screen and (max-device-width : 576px) {
+@media only screen and (min-device-width: 0) and (max-device-width : 576px) {
   /* Utilities CSS */
   .container{
     max-width: 576px;
@@ -68,4 +68,79 @@
     margin: 0 7px;
   }
   
+}
+
+/* -----------------------
+  Tab 577px to 768px 
+  ------------------------*/
+
+@media only screen and (min-device-width: 577px) and (max-device-width : 768px){
+  .container{
+    max-width: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  h3{
+    font-size: 22px;
+  }
+  /* Header Area */
+  .header-in .logo a {
+    font-size: 20px;
+  }
+  .main-menu ul li{
+    margin-left: 25px;
+  }
+
+  /* Banner Area */
+  .banner-in {
+    margin-bottom: 60px;
+  }
+  .banner-thumbnail img {
+    max-width: 90%;
+  }
+  .banner-content h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  /* Partnar Area */
+  .partner-logo{
+    flex-wrap: wrap;
+    padding: 30px 0;
+    margin-bottom: 60px;
+  }
+
+
+  /* Produuct area */
+  .product-area {
+    margin-bottom: 60px;
+  }
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .single-product {
+    padding: 20px;
+  }
+  .product-title {
+    font-size: 18px;
+  }
+  .show-more-btn a{
+    text-align: left;
+  }
+
+
+  /* Feature Area */
+  .feature-in {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .freature-info {
+    text-align: center;
+    padding: 40px;
+  }
+  .freature-info a {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
 }

@@ -18,7 +18,8 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 .container {
-  width: 1110px;
+  width: 1170px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 a{
