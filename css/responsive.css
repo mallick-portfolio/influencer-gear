@@ -1,0 +1,41 @@
+@media only screen and (max-device-width : 576px) {
+  .container{
+    max-width: 576px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .banner-in {
+    margin-bottom: 60px;
+  }
+  .banner-in {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content h1 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .banner-thumbnail img {
+    max-width: 100%;
+  }
+
+  .partner-logo {
+    flex-wrap: wrap;
+    border: 0;
+    padding: 0;
+  }
+  .productsls
+  {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 15px;
+  }
+  .single-product {
+    padding-right: 25px;
+  }
+  .single-product img {
+    width: 100%;
+  }
+}
