@@ -43,6 +43,20 @@ li {
   .header-in {
     padding: 40px 0;
   }
+  .mobile-menu {
+    display: none;
+  }
+  .mobile-menu ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+  }
+  .mobile-menu ul li a {
+    font-weight: bold;
+    font-size: 24px;
+    color: #3A3A3A;;
+  }
+
   .header-in .logo a {
     font-weight: bold;
     font-size: 24px;

@@ -6,6 +6,14 @@
     padding-right: 15px;
   }
 
+  /* Header Area */
+  .header-in {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+
 
   /* Banner Area */
   .banner-in {
@@ -141,6 +149,10 @@
   .freature-info a {
     margin-top: 25px;
     margin-bottom: 30px;
+  }
+  /* footer area */
+  .footer {
+    width: 150%;
   }
 
 }
