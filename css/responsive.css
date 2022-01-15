@@ -56,7 +56,11 @@
     width: 100%;
   }
 
-
+  /* Client Review Area */
+  .clients{
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+  }
   /* Freature Area */
   .feature-in {
     flex-direction: column-reverse;
