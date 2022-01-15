@@ -211,12 +211,12 @@ nav.main-menu {
   margin-bottom: 100px;
 }
 .feature-in {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  grid-column-gap: 30px;
+  display: flex;
+  
 }
 .freature-info {
   margin: auto 0;
+  padding-left: 90px;
 }
 .freature-info h2 {
   font-weight: bold;
